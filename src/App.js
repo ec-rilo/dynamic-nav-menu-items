@@ -1,5 +1,11 @@
+import StyledContainer from './components/Container';
+
 const App = () => {
-  return <div></div>;
+  return (
+    <nav>
+      <StyledContainer />
+    </nav>
+  );
 };
 
 export default App;
